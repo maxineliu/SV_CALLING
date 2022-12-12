@@ -6,8 +6,8 @@ submit series jobs by slurm on cluster
 ### computational comsuming
 | size of reference | size of bam | RAM | CPU | time |
 | ----------------- | --- | --- | ---- | ----- |
-|    4.3G      |   81G  |  24G  |  24  |  1.6 hours   |
-|    4.3G    |   50G  |  24G   |  24  | 42 mins  |
+|    4.3G      |   81G  |  14G  |  24  |  1.6 hours   |
+|    4.3G    |   50G  |  6G   |  24  | 42 mins  |
 |         |    |    |    |    |
 ## 2.survivor1.sh
 running locally
