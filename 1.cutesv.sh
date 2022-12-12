@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --time=24:00:00 #e.g. 24:00:00, 1-13:00:00
+#SBATCH --time=3:00:00 #e.g. 24:00:00, 1-13:00:00
 #SBATCH --job-name=cutesv
 #SBATCH --mem=24G #e.g. 100G
 #SBATCH --account=def-jfu
