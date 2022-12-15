@@ -2,7 +2,7 @@
 #!/bin/bash
 #SBATCH --time=3:00:00 #e.g. 24:00:00, 1-13:00:00
 #SBATCH --job-name=4.survivor2.sh
-#SBATCH --mem=14G #e.g. 100G
+#SBATCH --mem=32G #e.g. 100G
 #SBATCH --account=def-jfu
 #SBATCH --cpus-per-task=1
 #SBATCH --mail-type=All #Valid type values are NONE, BEGIN, END, FAIL, REQUEUE, ALL (equivalent to BEGIN, END, FAIL, INVALID_DEPEND, REQUEUE, and STAGE_OUT), INVALID_DEPEND (dependency never satisfied), STAGE_OUT (burst buffer stage out and teardown completed), TIME_LIMIT, TIME_LIMIT_90 (reached 90 percent of time limit), TIME_LIMIT_80 (reached 80 percent of time limit), TIME_LIMIT_50 (reached 50 percent of time limit) and ARRAY_TASKS (send emails for each array task).
